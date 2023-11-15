@@ -1,0 +1,24 @@
+syntax = "proto3";
+import "google/protobuf/wrappers.proto";
+option csharp_namespace = "EmpowerIdMicroservice.WebApi.Proto.Common";
+
+package proto.package;
+
+message IdResponseMessage {
+	google.protobuf.Int32Value id = 1;
+} 
+
+message IdRequestMessage {
+	google.protobuf.Int32Value id = 1;
+}
+ 
+message CommentMessage {
+    google.protobuf.Int32Value commentId = 1; 
+    google.protobuf.StringValue text = 2; 
+    google.protobuf.StringValue author = 4; 
+}
+
+message PaginationRequestMessage {
+    google.protobuf.Int32Value pageNumber = 1; 
+    google.protobuf.Int32Value pageSize = 2; 
+}
