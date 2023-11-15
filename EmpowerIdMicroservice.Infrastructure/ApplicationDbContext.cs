@@ -50,6 +50,8 @@ namespace EmpowerIdMicroservice.Infrastructure
             var builder = new ConfigurationBuilder();
            
             IConfiguration Configuration = builder.Build();
+            
+            // TODO : Riminder get from appsettings
 
             optionsBuilder.UseSqlServer("Server=.;Initial Catalog=EmpowerId;MultipleActiveResultSets=True;User Id=sa;Password=123;Encrypt=False");
             base.OnConfiguring(optionsBuilder);
