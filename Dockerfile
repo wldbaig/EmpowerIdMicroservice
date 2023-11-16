@@ -1,25 +1,29 @@
-# Use the official .NET Core SDK image as the build image
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
-WORKDIR /source
-
-# Copy the necessary files and restore dependencies
-COPY . .
-
-# Run dotnet restore for the solution
-RUN dotnet restore "EmpowerIdMicroservice.WebApi/EmpowerIdMicroservice.WebApi.csproj"
-
-# Publish the application
-RUN dotnet publish "EmpowerIdMicroservice.WebApi/EmpowerIdMicroservice.WebApi.csproj" -c release -o ./publish --no-restore
-
-# Use the smaller runtime image for the final image
-FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS runtime
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
 WORKDIR /app
-
-# Copy the published output from the build image
-COPY --from=build /app .
-
-# Expose the port on which the application will run
 EXPOSE 7041
 
-# Set the entry point for the application
+ENV ASPNETCORE_URLS=http://+:7041
+
+# Creates a non-root user with an explicit UID and adds permission to access the /app folder
+# For more info, please refer to https://aka.ms/vscode-docker-dotnet-configure-containers
+RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
+USER appuser
+
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+ARG configuration=Release
+WORKDIR /src
+#COPY ["EmpowerIdMicroservice.WebApi/EmpowerIdMicroservice.WebApi.csproj", "EmpowerIdMicroservice.WebApi/"]
+COPY . .
+RUN dotnet restore "EmpowerIdMicroservice.WebApi/EmpowerIdMicroservice.WebApi.csproj"
+COPY . .
+WORKDIR "/src/EmpowerIdMicroservice.WebApi"
+RUN dotnet build "EmpowerIdMicroservice.WebApi.csproj" -c $configuration -o /app/build
+
+FROM build AS publish
+ARG configuration=Release
+RUN dotnet publish "EmpowerIdMicroservice.WebApi.csproj" -c $configuration -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "EmpowerIdMicroservice.WebApi.dll"]
