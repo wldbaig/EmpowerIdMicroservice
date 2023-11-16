@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpowerIdMicroservice.WebApi", "EmpowerIdMicroservice.WebApi\EmpowerIdMicroservice.WebApi.csproj", "{C7D09B5E-F3BD-4A74-85F1-A71B4B96BBE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmpowerIdMicroservice.WebApi", "EmpowerIdMicroservice.WebApi\EmpowerIdMicroservice.WebApi.csproj", "{C7D09B5E-F3BD-4A74-85F1-A71B4B96BBE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpowerIdMicroservice.Application", "EmpowerIdMicroservice.Application\EmpowerIdMicroservice.Application.csproj", "{187F0D12-5ABF-4CE7-8AA1-81E7DA72CC25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmpowerIdMicroservice.Application", "EmpowerIdMicroservice.Application\EmpowerIdMicroservice.Application.csproj", "{187F0D12-5ABF-4CE7-8AA1-81E7DA72CC25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpowerIdMicroservice.Domain", "EmpowerIdMicroservice.Domain\EmpowerIdMicroservice.Domain.csproj", "{9AC41A2B-3C9C-44C5-8E47-F640362264D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmpowerIdMicroservice.Domain", "EmpowerIdMicroservice.Domain\EmpowerIdMicroservice.Domain.csproj", "{9AC41A2B-3C9C-44C5-8E47-F640362264D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpowerIdMicroservice.Infrastructure", "EmpowerIdMicroservice.Infrastructure\EmpowerIdMicroservice.Infrastructure.csproj", "{06262DDE-7999-4AA5-992E-A8535F2D6263}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmpowerIdMicroservice.Infrastructure", "EmpowerIdMicroservice.Infrastructure\EmpowerIdMicroservice.Infrastructure.csproj", "{06262DDE-7999-4AA5-992E-A8535F2D6263}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{753AEE49-0445-4056-AF5C-B18C505504D0}"
+	ProjectSection(SolutionItems) = preProject
+		DockerFile.txt = DockerFile.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

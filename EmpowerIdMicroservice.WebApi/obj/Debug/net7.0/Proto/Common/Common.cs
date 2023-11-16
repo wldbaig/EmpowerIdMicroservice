@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace EmpowerIdMicroservice.WebApi.Proto.Common {
+namespace EmpowerIdMicroservice.WebApi.Proto {
 
   /// <summary>Holder for reflection information generated from Proto/Common/common.proto</summary>
   public static partial class CommonReflection {
@@ -34,15 +34,15 @@ namespace EmpowerIdMicroservice.WebApi.Proto.Common {
             "aG9yGAQgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlN0cmluZ1ZhbHVlInoKGFBh",
             "Z2luYXRpb25SZXF1ZXN0TWVzc2FnZRIvCgpwYWdlTnVtYmVyGAEgASgLMhsu",
             "Z29vZ2xlLnByb3RvYnVmLkludDMyVmFsdWUSLQoIcGFnZVNpemUYAiABKAsy",
-            "Gy5nb29nbGUucHJvdG9idWYuSW50MzJWYWx1ZUIsqgIpRW1wb3dlcklkTWlj",
-            "cm9zZXJ2aWNlLldlYkFwaS5Qcm90by5Db21tb25iBnByb3RvMw=="));
+            "Gy5nb29nbGUucHJvdG9idWYuSW50MzJWYWx1ZUIlqgIiRW1wb3dlcklkTWlj",
+            "cm9zZXJ2aWNlLldlYkFwaS5Qcm90b2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage), global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage.Parser, new[]{ "Id" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::EmpowerIdMicroservice.WebApi.Proto.Common.IdRequestMessage), global::EmpowerIdMicroservice.WebApi.Proto.Common.IdRequestMessage.Parser, new[]{ "Id" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::EmpowerIdMicroservice.WebApi.Proto.Common.CommentMessage), global::EmpowerIdMicroservice.WebApi.Proto.Common.CommentMessage.Parser, new[]{ "CommentId", "Text", "Author" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::EmpowerIdMicroservice.WebApi.Proto.Common.PaginationRequestMessage), global::EmpowerIdMicroservice.WebApi.Proto.Common.PaginationRequestMessage.Parser, new[]{ "PageNumber", "PageSize" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage), global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage.Parser, new[]{ "Id" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::EmpowerIdMicroservice.WebApi.Proto.IdRequestMessage), global::EmpowerIdMicroservice.WebApi.Proto.IdRequestMessage.Parser, new[]{ "Id" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::EmpowerIdMicroservice.WebApi.Proto.CommentMessage), global::EmpowerIdMicroservice.WebApi.Proto.CommentMessage.Parser, new[]{ "CommentId", "Text", "Author" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::EmpowerIdMicroservice.WebApi.Proto.PaginationRequestMessage), global::EmpowerIdMicroservice.WebApi.Proto.PaginationRequestMessage.Parser, new[]{ "PageNumber", "PageSize" }, null, null, null, null)
           }));
     }
     #endregion
@@ -63,7 +63,7 @@ namespace EmpowerIdMicroservice.WebApi.Proto.Common {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::EmpowerIdMicroservice.WebApi.Proto.Common.CommonReflection.Descriptor.MessageTypes[0]; }
+      get { return global::EmpowerIdMicroservice.WebApi.Proto.CommonReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -260,7 +260,7 @@ namespace EmpowerIdMicroservice.WebApi.Proto.Common {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::EmpowerIdMicroservice.WebApi.Proto.Common.CommonReflection.Descriptor.MessageTypes[1]; }
+      get { return global::EmpowerIdMicroservice.WebApi.Proto.CommonReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -457,7 +457,7 @@ namespace EmpowerIdMicroservice.WebApi.Proto.Common {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::EmpowerIdMicroservice.WebApi.Proto.Common.CommonReflection.Descriptor.MessageTypes[2]; }
+      get { return global::EmpowerIdMicroservice.WebApi.Proto.CommonReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -744,7 +744,7 @@ namespace EmpowerIdMicroservice.WebApi.Proto.Common {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::EmpowerIdMicroservice.WebApi.Proto.Common.CommonReflection.Descriptor.MessageTypes[3]; }
+      get { return global::EmpowerIdMicroservice.WebApi.Proto.CommonReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

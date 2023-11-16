@@ -230,3 +230,8 @@ E:\Projects\Projects\EmpowerIdMicroservice\EmpowerIdMicroservice.WebApi\obj\Debu
 E:\Projects\Projects\EmpowerIdMicroservice\EmpowerIdMicroservice.WebApi\obj\Debug\net7.0\EmpowerIdMicroservice.WebApi.pdb
 E:\Projects\Projects\EmpowerIdMicroservice\EmpowerIdMicroservice.WebApi\obj\Debug\net7.0\EmpowerIdMicroservice.WebApi.genruntimeconfig.cache
 E:\Projects\Projects\EmpowerIdMicroservice\EmpowerIdMicroservice.WebApi\obj\Debug\net7.0\ref\EmpowerIdMicroservice.WebApi.dll
+E:\Projects\Projects\EmpowerIdMicroservice\EmpowerIdMicroservice.WebApi\bin\Debug\net7.0\publish\appsettings.Development.json
+E:\Projects\Projects\EmpowerIdMicroservice\EmpowerIdMicroservice.WebApi\bin\Debug\net7.0\publish\appsettings.json
+E:\Projects\Projects\EmpowerIdMicroservice\EmpowerIdMicroservice.WebApi\bin\Debug\net7.0\publish\web.config
+E:\Projects\Projects\EmpowerIdMicroservice\EmpowerIdMicroservice.WebApi\bin\Debug\net7.0\publish\EmpowerIdMicroservice.WebApi.deps.json
+E:\Projects\Projects\EmpowerIdMicroservice\EmpowerIdMicroservice.WebApi\bin\Debug\net7.0\publish\EmpowerIdMicroservice.WebApi.runtimeconfig.json

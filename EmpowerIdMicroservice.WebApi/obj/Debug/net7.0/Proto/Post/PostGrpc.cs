@@ -48,20 +48,20 @@ namespace EmpowerIdMicroservice.WebApi.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage> __Marshaller_proto_package_PostCreateMessage = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage> __Marshaller_proto_package_IdResponseMessage = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage.Parser));
+    static readonly grpc::Marshaller<global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage> __Marshaller_proto_package_IdResponseMessage = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage> __Marshaller_proto_package_PostUpdateMessage = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::EmpowerIdMicroservice.WebApi.Proto.Common.IdRequestMessage> __Marshaller_proto_package_IdRequestMessage = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::EmpowerIdMicroservice.WebApi.Proto.Common.IdRequestMessage.Parser));
+    static readonly grpc::Marshaller<global::EmpowerIdMicroservice.WebApi.Proto.IdRequestMessage> __Marshaller_proto_package_IdRequestMessage = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::EmpowerIdMicroservice.WebApi.Proto.IdRequestMessage.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage> __Marshaller_proto_package_PostResponseMessage = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::EmpowerIdMicroservice.WebApi.Proto.Common.PaginationRequestMessage> __Marshaller_proto_package_PaginationRequestMessage = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::EmpowerIdMicroservice.WebApi.Proto.Common.PaginationRequestMessage.Parser));
+    static readonly grpc::Marshaller<global::EmpowerIdMicroservice.WebApi.Proto.PaginationRequestMessage> __Marshaller_proto_package_PaginationRequestMessage = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::EmpowerIdMicroservice.WebApi.Proto.PaginationRequestMessage.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage> __Marshaller_proto_package_PostListResponseMessage = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage, global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage> __Method_CreatePost = new grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage, global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage>(
+    static readonly grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage, global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage> __Method_CreatePost = new grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage, global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage>(
         grpc::MethodType.Unary,
         __ServiceName,
         "CreatePost",
@@ -69,7 +69,7 @@ namespace EmpowerIdMicroservice.WebApi.Proto {
         __Marshaller_proto_package_IdResponseMessage);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage, global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage> __Method_UpdatePost = new grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage, global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage>(
+    static readonly grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage, global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage> __Method_UpdatePost = new grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage, global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage>(
         grpc::MethodType.Unary,
         __ServiceName,
         "UpdatePost",
@@ -77,7 +77,7 @@ namespace EmpowerIdMicroservice.WebApi.Proto {
         __Marshaller_proto_package_IdResponseMessage);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.Common.IdRequestMessage, global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage> __Method_GetPostById = new grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.Common.IdRequestMessage, global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage>(
+    static readonly grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.IdRequestMessage, global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage> __Method_GetPostById = new grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.IdRequestMessage, global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetPostById",
@@ -85,7 +85,7 @@ namespace EmpowerIdMicroservice.WebApi.Proto {
         __Marshaller_proto_package_PostResponseMessage);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.Common.PaginationRequestMessage, global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage> __Method_GetPosts = new grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.Common.PaginationRequestMessage, global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage>(
+    static readonly grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.PaginationRequestMessage, global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage> __Method_GetPosts = new grpc::Method<global::EmpowerIdMicroservice.WebApi.Proto.PaginationRequestMessage, global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetPosts",
@@ -103,25 +103,25 @@ namespace EmpowerIdMicroservice.WebApi.Proto {
     public abstract partial class PostGrpcBase
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage> CreatePost(global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage> CreatePost(global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage> UpdatePost(global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage> UpdatePost(global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage> GetPostById(global::EmpowerIdMicroservice.WebApi.Proto.Common.IdRequestMessage request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage> GetPostById(global::EmpowerIdMicroservice.WebApi.Proto.IdRequestMessage request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage> GetPosts(global::EmpowerIdMicroservice.WebApi.Proto.Common.PaginationRequestMessage request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage> GetPosts(global::EmpowerIdMicroservice.WebApi.Proto.PaginationRequestMessage request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -156,82 +156,82 @@ namespace EmpowerIdMicroservice.WebApi.Proto {
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage CreatePost(global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage CreatePost(global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreatePost(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage CreatePost(global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage request, grpc::CallOptions options)
+      public virtual global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage CreatePost(global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_CreatePost, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage> CreatePostAsync(global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage> CreatePostAsync(global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreatePostAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage> CreatePostAsync(global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage> CreatePostAsync(global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreatePost, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage UpdatePost(global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage UpdatePost(global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdatePost(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage UpdatePost(global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage request, grpc::CallOptions options)
+      public virtual global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage UpdatePost(global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_UpdatePost, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage> UpdatePostAsync(global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage> UpdatePostAsync(global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdatePostAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage> UpdatePostAsync(global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage> UpdatePostAsync(global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdatePost, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage GetPostById(global::EmpowerIdMicroservice.WebApi.Proto.Common.IdRequestMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage GetPostById(global::EmpowerIdMicroservice.WebApi.Proto.IdRequestMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetPostById(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage GetPostById(global::EmpowerIdMicroservice.WebApi.Proto.Common.IdRequestMessage request, grpc::CallOptions options)
+      public virtual global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage GetPostById(global::EmpowerIdMicroservice.WebApi.Proto.IdRequestMessage request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetPostById, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage> GetPostByIdAsync(global::EmpowerIdMicroservice.WebApi.Proto.Common.IdRequestMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage> GetPostByIdAsync(global::EmpowerIdMicroservice.WebApi.Proto.IdRequestMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetPostByIdAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage> GetPostByIdAsync(global::EmpowerIdMicroservice.WebApi.Proto.Common.IdRequestMessage request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage> GetPostByIdAsync(global::EmpowerIdMicroservice.WebApi.Proto.IdRequestMessage request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetPostById, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage GetPosts(global::EmpowerIdMicroservice.WebApi.Proto.Common.PaginationRequestMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage GetPosts(global::EmpowerIdMicroservice.WebApi.Proto.PaginationRequestMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetPosts(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage GetPosts(global::EmpowerIdMicroservice.WebApi.Proto.Common.PaginationRequestMessage request, grpc::CallOptions options)
+      public virtual global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage GetPosts(global::EmpowerIdMicroservice.WebApi.Proto.PaginationRequestMessage request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetPosts, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage> GetPostsAsync(global::EmpowerIdMicroservice.WebApi.Proto.Common.PaginationRequestMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage> GetPostsAsync(global::EmpowerIdMicroservice.WebApi.Proto.PaginationRequestMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetPostsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage> GetPostsAsync(global::EmpowerIdMicroservice.WebApi.Proto.Common.PaginationRequestMessage request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage> GetPostsAsync(global::EmpowerIdMicroservice.WebApi.Proto.PaginationRequestMessage request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetPosts, null, options, request);
       }
@@ -262,10 +262,10 @@ namespace EmpowerIdMicroservice.WebApi.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, PostGrpcBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_CreatePost, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage, global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage>(serviceImpl.CreatePost));
-      serviceBinder.AddMethod(__Method_UpdatePost, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage, global::EmpowerIdMicroservice.WebApi.Proto.Common.IdResponseMessage>(serviceImpl.UpdatePost));
-      serviceBinder.AddMethod(__Method_GetPostById, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EmpowerIdMicroservice.WebApi.Proto.Common.IdRequestMessage, global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage>(serviceImpl.GetPostById));
-      serviceBinder.AddMethod(__Method_GetPosts, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EmpowerIdMicroservice.WebApi.Proto.Common.PaginationRequestMessage, global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage>(serviceImpl.GetPosts));
+      serviceBinder.AddMethod(__Method_CreatePost, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage, global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage>(serviceImpl.CreatePost));
+      serviceBinder.AddMethod(__Method_UpdatePost, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage, global::EmpowerIdMicroservice.WebApi.Proto.IdResponseMessage>(serviceImpl.UpdatePost));
+      serviceBinder.AddMethod(__Method_GetPostById, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EmpowerIdMicroservice.WebApi.Proto.IdRequestMessage, global::EmpowerIdMicroservice.WebApi.Proto.PostResponseMessage>(serviceImpl.GetPostById));
+      serviceBinder.AddMethod(__Method_GetPosts, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EmpowerIdMicroservice.WebApi.Proto.PaginationRequestMessage, global::EmpowerIdMicroservice.WebApi.Proto.PostListResponseMessage>(serviceImpl.GetPosts));
     }
 
   }

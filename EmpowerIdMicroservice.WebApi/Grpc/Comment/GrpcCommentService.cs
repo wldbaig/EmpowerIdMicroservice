@@ -1,5 +1,4 @@
 ﻿using EmpowerIdMicroservice.WebApi.Proto;
-using EmpowerIdMicroservice.WebApi.Proto.Common;
 using Grpc.Core;
 using MediatR;
 using EmpowerIdMicroservice.Application.CQRS.Commands.Comment;

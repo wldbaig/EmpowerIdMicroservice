@@ -17,8 +17,6 @@ E:\Projects\Projects\EmpowerIdMicroservice.Infrastructure\obj\Debug\net7.0\refin
 E:\Projects\Projects\EmpowerIdMicroservice.Infrastructure\obj\Debug\net7.0\EmpowerIdMicroservice.Infrastructure.pdb
 E:\Projects\Projects\EmpowerIdMicroservice.Infrastructure\obj\Debug\net7.0\EmpowerIdMicroservice.Infrastructure.genruntimeconfig.cache
 E:\Projects\Projects\EmpowerIdMicroservice.Infrastructure\obj\Debug\net7.0\ref\EmpowerIdMicroservice.Infrastructure.dll
-E:\Projects\Projects\EmpowerIdMicroservice\EmpowerIdMicroservice.Infrastructure\bin\Debug\net7.0\appsettings.Development.json
-E:\Projects\Projects\EmpowerIdMicroservice\EmpowerIdMicroservice.Infrastructure\bin\Debug\net7.0\appsettings.json
 E:\Projects\Projects\EmpowerIdMicroservice\EmpowerIdMicroservice.Infrastructure\bin\Debug\net7.0\EmpowerIdMicroservice.Infrastructure.deps.json
 E:\Projects\Projects\EmpowerIdMicroservice\EmpowerIdMicroservice.Infrastructure\bin\Debug\net7.0\EmpowerIdMicroservice.Infrastructure.runtimeconfig.json
 E:\Projects\Projects\EmpowerIdMicroservice\EmpowerIdMicroservice.Infrastructure\bin\Debug\net7.0\EmpowerIdMicroservice.Infrastructure.dll

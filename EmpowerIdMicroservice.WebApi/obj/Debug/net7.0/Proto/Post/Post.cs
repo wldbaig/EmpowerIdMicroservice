@@ -53,7 +53,7 @@ namespace EmpowerIdMicroservice.WebApi.Proto {
             "Z2UaJi5wcm90by5wYWNrYWdlLlBvc3RMaXN0UmVzcG9uc2VNZXNzYWdlQiWq",
             "AiJFbXBvd2VySWRNaWNyb3NlcnZpY2UuV2ViQXBpLlByb3RvYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::EmpowerIdMicroservice.WebApi.Proto.Common.CommonReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::EmpowerIdMicroservice.WebApi.Proto.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage), global::EmpowerIdMicroservice.WebApi.Proto.PostCreateMessage.Parser, new[]{ "Title", "Content", "Author", "IsPublished" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage), global::EmpowerIdMicroservice.WebApi.Proto.PostUpdateMessage.Parser, new[]{ "PostId", "Title", "Content", "Author", "IsPublished" }, null, null, null, null),
@@ -862,12 +862,12 @@ namespace EmpowerIdMicroservice.WebApi.Proto {
 
     /// <summary>Field number for the "comments" field.</summary>
     public const int CommentsFieldNumber = 5;
-    private static readonly pb::FieldCodec<global::EmpowerIdMicroservice.WebApi.Proto.Common.CommentMessage> _repeated_comments_codec
-        = pb::FieldCodec.ForMessage(42, global::EmpowerIdMicroservice.WebApi.Proto.Common.CommentMessage.Parser);
-    private readonly pbc::RepeatedField<global::EmpowerIdMicroservice.WebApi.Proto.Common.CommentMessage> comments_ = new pbc::RepeatedField<global::EmpowerIdMicroservice.WebApi.Proto.Common.CommentMessage>();
+    private static readonly pb::FieldCodec<global::EmpowerIdMicroservice.WebApi.Proto.CommentMessage> _repeated_comments_codec
+        = pb::FieldCodec.ForMessage(42, global::EmpowerIdMicroservice.WebApi.Proto.CommentMessage.Parser);
+    private readonly pbc::RepeatedField<global::EmpowerIdMicroservice.WebApi.Proto.CommentMessage> comments_ = new pbc::RepeatedField<global::EmpowerIdMicroservice.WebApi.Proto.CommentMessage>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::EmpowerIdMicroservice.WebApi.Proto.Common.CommentMessage> Comments {
+    public pbc::RepeatedField<global::EmpowerIdMicroservice.WebApi.Proto.CommentMessage> Comments {
       get { return comments_; }
     }
 

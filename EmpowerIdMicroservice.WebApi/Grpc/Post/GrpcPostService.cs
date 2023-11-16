@@ -2,7 +2,6 @@
 using EmpowerIdMicroservice.Application.CQRS.Commands.Post.UpdatePostCommand;
 using EmpowerIdMicroservice.Application.CQRS.Queries.Post;
 using EmpowerIdMicroservice.WebApi.Proto;
-using EmpowerIdMicroservice.WebApi.Proto.Common;
 using Grpc.Core;
 using MediatR;
 

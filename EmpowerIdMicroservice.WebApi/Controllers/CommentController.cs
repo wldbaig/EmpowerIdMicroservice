@@ -1,6 +1,5 @@
 ﻿using EmpowerIdMicroservice.WebApi.Model;
 using EmpowerIdMicroservice.WebApi.Proto;
-using EmpowerIdMicroservice.WebApi.Proto.Common;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

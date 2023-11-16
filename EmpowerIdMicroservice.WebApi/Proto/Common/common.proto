@@ -1,6 +1,6 @@
 syntax = "proto3";
 import "google/protobuf/wrappers.proto";
-option csharp_namespace = "EmpowerIdMicroservice.WebApi.Proto.Common";
+option csharp_namespace = "EmpowerIdMicroservice.WebApi.Proto";
 
 package proto.package;
 
