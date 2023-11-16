@@ -1,4 +1,0 @@
-obj\Debug\net7.0\Proto\Comment/Comment.cs \
-obj\Debug\net7.0\Proto\Comment/CommentGrpc.cs: C:/Users/Waleed/.nuget/packages/grpc.tools/2.59.0/build/native/include/google/protobuf/wrappers.proto\
- proto/common/common.proto\
- Proto/Comment/comment.proto

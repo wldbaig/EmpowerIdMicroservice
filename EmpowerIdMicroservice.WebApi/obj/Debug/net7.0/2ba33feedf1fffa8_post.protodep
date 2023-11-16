@@ -1,4 +1,0 @@
-obj\Debug\net7.0\Proto\Post/Post.cs \
-obj\Debug\net7.0\Proto\Post/PostGrpc.cs: C:/Users/Waleed/.nuget/packages/grpc.tools/2.59.0/build/native/include/google/protobuf/wrappers.proto\
- proto/common/common.proto\
- Proto/Post/post.proto

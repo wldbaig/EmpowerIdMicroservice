@@ -1,0 +1,36 @@
+syntax = "proto3";
+import "google/protobuf/wrappers.proto";
+import "proto/common.proto";
+
+option csharp_namespace = "EmpowerIdMicroservice.WebApi.Proto";
+ 
+package proto.package;
+
+service CommentGrpc {
+	rpc CreateComment(CommentCreateMessage) returns (IdResponseMessage);
+	rpc UpdateComment(CommentUpdateMessage) returns (IdResponseMessage); 
+	rpc GetCommentById(IdRequestMessage) returns (CommentResponseMessage); 
+	rpc GetCommentByPostId(IdRequestMessage) returns (CommentByPostResponseMessage); 
+}
+ 
+message CommentCreateMessage {
+    google.protobuf.StringValue text = 1; 
+    google.protobuf.Int32Value postId = 2; 
+    google.protobuf.StringValue author = 3; 
+}
+ 
+message CommentUpdateMessage {
+    google.protobuf.Int32Value commentId = 1; 
+    google.protobuf.StringValue text = 2; 
+    google.protobuf.StringValue author = 4; 
+}
+
+message CommentResponseMessage {
+    google.protobuf.StringValue text = 1; 
+    google.protobuf.Int32Value postId = 2; 
+    google.protobuf.StringValue author = 3; 
+}
+
+message CommentByPostResponseMessage {
+    repeated CommentMessage comments = 1;
+}

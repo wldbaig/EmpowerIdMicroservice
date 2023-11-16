@@ -7,12 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Proto\Comment\comment.proto" />
-    <None Remove="Proto\Common\common.proto" />
-    <None Remove="Proto\Post\post.proto" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="AspNetCoreRateLimit" Version="5.0.0" />
     <PackageReference Include="Autofac" Version="7.1.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
@@ -50,9 +44,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="Proto\Comment\comment.proto" />
-    <Protobuf Include="Proto\Common\common.proto" />
-    <Protobuf Include="Proto\Post\post.proto" />
+    <Protobuf Include="Proto\comment.proto" />
+    <Protobuf Include="Proto\common.proto" />
+    <Protobuf Include="Proto\post.proto" />
   </ItemGroup>
 
 </Project>
